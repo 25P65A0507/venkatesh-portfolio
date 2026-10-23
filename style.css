@@ -558,4 +558,61 @@ section{
     }
 
 }
+/* Mobile Responsive Design */
+@media (max-width: 768px) {
 
+    /* Navbar */
+    nav {
+        padding: 15px 20px;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        padding: 0;
+    }
+
+    /* Home section */
+    .home {
+        flex-direction: column;
+        text-align: center;
+        padding: 50px 20px;
+    }
+
+    .home-content {
+        width: 100%;
+    }
+
+    .home-content h1 {
+        font-size: 40px;
+        line-height: 1.1;
+    }
+
+    .home-content h2 {
+        font-size: 25px;
+    }
+
+    .home-content p {
+        font-size: 16px;
+    }
+
+    /* Buttons */
+    .buttons {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    /* Prevent horizontal overflow */
+    body {
+        overflow-x: hidden;
+    }
+
+    * {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
